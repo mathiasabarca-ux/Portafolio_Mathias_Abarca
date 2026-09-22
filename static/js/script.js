@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
     reportBtn.addEventListener('click', () => {
       reported = !reported;
       reportBtn.classList.toggle('active', reported);
-      btnText.textContent = reported ? 'PERRO REPORTADO' : 'REPORTAR PERRO';
+      btnText.textContent = reported ? 'INGRSADO' : 'INGRESAR';
 
       count += reported ? 1 : -1;
       memberCount.textContent = formatCount(count);
 
       statusMsg.textContent = reported
-        ? 'REPORTE RECIBIDO // LA JAURÍA SIGUE PRESENTE'
+        ? 'REPORTE RECIBIDO // GRACIAS POR INGRSAR'
         : 'REPORTE RETIRADO // VUELVE CUANDO QUIERAS';
       statusMsg.classList.toggle('active', reported);
     });
