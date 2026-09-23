@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mathias Abarca">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Mathias Abarca</title>
+
+
+    <link rel="icon" href="static/images/cartel-de-santa-seeklogo.png" type="image/png">
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <!-- Capas de líneas de escaneo CRT y grano retro -->
+    <div class="overlay-grain"></div>
+    <div class="overlay-noise"></div>
+
+    <!-- NAV LATERAL DE PISTAS -->
+    <nav class="track-nav" id="trackNav">
+        <a href="#inicio" class="track-link active" data-track="01">
+            <span class="track-num">Apartado 01</span><span class="track-label">INICIO</span>
+        </a>
+        <a href="#sobre-mi" class="track-link" data-track="02">
+            <span class="track-num">Apartado 02</span><span class="track-label">SOBRE MÍ</span>
+        </a>
+        <a href="#proyectos" class="track-link" data-track="03">
+            <span class="track-num">Apartado 03</span><span class="track-label">PROYECTOS</span>
+        </a>
+        <a href="#habilidades" class="track-link" data-track="04">
+            <span class="track-num">Apartado 04</span><span class="track-label">HABILIDADES</span>
+        </a>
+        <a href="#contacto" class="track-link" data-track="05">
+            <span class="track-num">Apartado 05</span><span class="track-label">CONTACTO</span>
+        </a>
+    </nav>
+
+    <!-- INTERFAZ PRINCIPAL -->
+    <div class="viewport-wrapper" id="inicio">
+
+        <!-- BARRA SUPERIOR -->
+        <header class="top-bar">
+            <div class="rec-tag">
+                <span class="rec-dot"></span>
+                <span>● REC ARCHIVO_2000</span>
+            </div>
+            <div class="quote-tag">
+                " Big M "
+            </div>
+        </header>
+
+        <!-- SECCIÓN PRINCIPAL HERO -->
+        <main class="hero-container">
+            <h1 class="title-main">
+                <span>Mathias</span>
+                <span>Abarca</span>
+            </h1>
+
+            <div class="domain-sub">https://github.com/mathiasabarca-ux</div>
+
+            <div class="divider-line"></div>
+
+            <div class="info-text">
+                <p>Un rincón perdido de internet...</p>
+                <p>Una época que todavía hace ruido...</p>
+                <p class="song-title">"DÉJATE CAER"</p>
+                <p class="location-tag">Santiago · Chile · 2026</p>
+            </div>
+
+            <!-- BOTÓN DE REPORTE -->
+            <button class="btn-report" id="reportBtn">
+                <span id="btnIcon">✓</span> <span id="btnText"></span>
+            </button>
+
+            <!-- CONTADOR DE MIEMBROS -->
+            <div class="counter-box">
+                MIEMBROS DE LA JAURÍA // <span class="count-val" id="memberCount">9,506</span>
+            </div>
+
+            <div class="status-msg" id="statusMsg">
+                REPORTE RECIBIDO // LA JAURÍA SIGUE PRESENTE
+            </div>
+
+            <div class="credits-tag">
+                Sitio tipo portafolio personal,
+                author Big M
+            </div>
+
+            <a href="#sobre-mi" class="scroll-cue" aria-label="Bajar a Sobre mí">
+                <span></span> DESPLAZAR
+            </a>
+        </main>
+
+        <div></div>
+    </div>
+
+    <!-- ====================================================== -->
+    <!-- SOBRE MÍ -->
+    <!-- ====================================================== -->
+    <section class="section-block" id="sobre-mi">
+        <div class="section-inner">
+            <div class="section-tag"><span class="rec-dot small"></span> PISTA 02 // SOBRE MÍ</div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">Mathias Abarca</h2>
+                    <p class="about-alias">alias <span>Big M</span></p>
+                    <p class="about-copy">
+                        Desarrollador y archivista digital. Construyo interfaces que suenan a algo
+                        que ya viviste — sitios homenaje, experimentos de interfaz y proyectos
+                        personales grabados con la estética de una cinta vieja: ruido, grano y
+                        memoria.
+                    </p>
+                    <p class="about-copy">
+
+                    </p>
+                </div>
+
+                <div class="spec-sheet">
+                    <div class="spec-row"><span>NOMBRE</span><span>Mathias Abarca</span></div>
+                    <div class="spec-row"><span>ALIAS</span><span>Big M</span></div>
+                    <div class="spec-row"><span>ROL</span><span>Dev · front end junior</span></div>
+                    <div class="spec-row"><span>UBICACIÓN</span><span>Santiago, Chile</span></div>
+                    <div class="spec-row"><span>FORMATO</span><span>Web · HTML/CSS/JS</span></div>
+                    <div class="spec-row"><span>ESTADO</span><span class="rec-live">● GRABANDO</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- PROYECTOS -->
+    <!-- ====================================================== -->
+    <section class="section-block" id="proyectos">
+        <div class="section-inner">
+            <div class="section-tag"><span class="rec-dot small"></span> PISTA 03 // PROYECTOS</div>
+            <h2 class="section-title">Archivo de proyectos</h2>
+
+            <div class="tape-grid">
+                <article class="tape-card">
+                    <div class="tape-card-top">
+                        <span class="tape-index">A1</span>
+                        <span class="tape-year">2000's</span>
+                    </div>
+                    <h3>Portafolio Personal M,A</h3>
+                    <p>Portafolio personal. Estética VHS, archivo sonoro y reporte de miembros.</p>
+                    <div class="tape-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    <a href="#inicio" class="tape-link">VER PROYECTO ▶</a>
+                </article>
+
+                <article class="tape-card">
+                    <div class="tape-card-top">
+                        <span class="tape-index">A2</span>
+                        <span class="tape-year">2026</span>
+                    </div>
+                    <h3>Pagina informativa de NeuroMundo</h3>
+                    <p>Pagina informativa de la plataforma NeuroMndo</p>
+                    <div class="tape-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    <a href="https://iris014.github.io/Neu-Industries/" class="tape-link">VER PROYECTO ▶</a>
+                </article>
+
+                <article class="tape-card">
+                    <div class="tape-card-top">
+                        <span class="tape-index">B1</span>
+                        <span class="tape-year">2023</span>
+                    </div>
+                    <h3>NeuroMundo</h3>
+                    <p>Solucion para los tutores de personas con trastornos neurológicos.</p>
+                    <div class="tape-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    <a href="https://iris014.github.io/App-Neuro-Mundo/" class="tape-link">VER PROYECTO ▶</a>
+
+                </article>
+
+                <article class="tape-card">
+                    <div class="tape-card-top">
+                        <span class="tape-index">B2</span>
+                        <span class="tape-year">2023</span>
+                    </div>
+                    <h3>MyCOCOS©</h3>
+                    <p>Una url basada en la famosa pagina mycocos</p>
+                    <div class="tape-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    <a href="https://mathiasabarca-ux.github.io/MyCOCOS/" class="tape-link">VER PROYECTO ▶</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- HABILIDADES -->
+    <!-- ====================================================== -->
+    <section class="section-block" id="habilidades">
+        <div class="section-inner">
+            <div class="section-tag"><span class="rec-dot small"></span> PISTA 04 // HABILIDADES</div>
+            <h2 class="section-title">Niveles de la cinta</h2>
+
+            <div class="skills-list" id="skillsList">
+                <div class="skill-row" data-level="90">
+                    <span class="skill-name">HTML / CSS</span>
+                    <div class="skill-meter">
+                        <div class="skill-fill"></div>
+                    </div>
+                </div>
+                <div class="skill-row" data-level="80">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-meter">
+                        <div class="skill-fill"></div>
+                    </div>
+                </div>
+                <div class="skill-row" data-level="65">
+                    <span class="skill-name">Diseño de interfaz</span>
+                    <div class="skill-meter">
+                        <div class="skill-fill"></div>
+                    </div>
+                </div>
+                <div class="skill-row" data-level="55">
+                    <span class="skill-name">Backend / APIs</span>
+                    <div class="skill-meter">
+                        <div class="skill-fill"></div>
+                    </div>
+                </div>
+                <div class="skill-row" data-level="70">
+                    <span class="skill-name">Git / Control de versiones</span>
+                    <div class="skill-meter">
+                        <div class="skill-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- CONTACTO -->
+    <!-- ====================================================== -->
+    <section class="section-block" id="contacto">
+        <div class="section-inner">
+            <div class="section-tag"><span class="rec-dot small"></span> PISTA 05 // CONTACTO</div>
+            <h2 class="section-title">Grabar un mensaje</h2>
+            <p class="about-copy">Deja tus datos y te respondo en cuanto pueda.</p>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <label for="nameInput">NOMBRE</label>
+                    <input type="text" id="nameInput" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-row">
+                    <label for="emailInput">CORREO</label>
+                    <input type="email" id="emailInput" name="correo" placeholder="tu@correo.com" required>
+                </div>
+                <div class="form-row">
+                    <label for="msgInput">MENSAJE</label>
+                    <textarea id="msgInput" name="mensaje" rows="4" placeholder="Escribe tu mensaje..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn-report" id="sendBtn">
+                    <span id="sendIcon">●</span> <span id="sendText">GRABAR Y ENVIAR</span>
+                </button>
+                <div class="status-msg" id="contactStatus"></div>
+            </form>
+
+            <div class="social-row">
+                <a href="https://github.com/mathiasabarca-ux" class="social-tag">GITHUB</a>
+                <a href="https://www.instagram.com/k1osk._/" class="social-tag">INSTAGRAM</a>
+                <a href="#" class="social-tag">LINKEDIN</a>
+                <a href="mailto:mathiasabarca@liceovvh.cl" class="social-tag">EMAIL</a>
+            </div>
+        </div>
+
+        <footer class="site-footer">
+            <span>Sitio official. Big M</span>
+            <a href="#inicio" class="back-top">▲ VOLVER ARRIBA</a>
+            <span>© 2026 — HOY</span>
+        </footer>
+    </section>
+
+    <!-- REPRODUCTOR DE AUDIO FIJO -->
+    <div class="audio-player-fixed">
+        <audio id="audioEl" src="static/audio/Dejate Caer [sy4SMysIlfA].mp3" preload="none" loop></audio>
+        <button class="player-btn" id="playBtn" title="Reproducir / Pausar">▶</button>
+        <div class="track-meta">
+            <span class="track-name">DÉJATE CAER</span>
+            <span class="track-status" id="playerStateText">PAUSADA</span>
+        </div>
+        <div class="volume-control">
+            <span style="font-size:0.7rem; color:#727688;">🔊</span>
+            <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.05" value="0.7">
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
